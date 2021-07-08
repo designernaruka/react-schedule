@@ -8,7 +8,7 @@ function App() {
       <div id='schedule'>
       <ScheduleComponent>
         <Inject services={[Day, Week, WorkWeek, Month, Agenda, MonthAgenda, TimelineViews, TimelineMonth ]} />
-      </ScheduleComponent>;
+      </ScheduleComponent>
       </div>
     </div>
   );
